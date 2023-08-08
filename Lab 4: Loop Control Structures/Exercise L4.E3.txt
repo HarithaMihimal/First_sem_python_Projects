@@ -1,0 +1,11 @@
+Encryption is the process of encoding information to prevent anyone other than its intended recipient from viewing it. Develop a Python program to encrypt a message based on the following criteria.
+
+The message will be encrypted using a given base (1 < base ≤ 10). You have to obtain the ASCII value of each character of the message and convert that number into the given base. After converting values of all the characters, aggregate (concatenate) those values in the character order and show it as the encrypted message.  
+
+Consider "We" to be the message and the required base = 2. Here,
+
+ Take the ASCII values of "W" and "e". ASCII of "W" is 87 and ASCII of "e" is 101
+Convert the two values to the required base. In this case, binary (since base=2). 
+87 in base 2 = 1010111
+101 in base 2 = 1100101
+Concatenate these two binary representations to obtain the encoded message "10101111100101"
