@@ -1,0 +1,69 @@
+Develop a program to input the units of electricity (number of kWh) consumed monthly and output the calculated electricity bill for that month. The charges differ according to the following domestic purpose plan from Ceylon Electricity Board.
+
+
+If the consumption is between 0-60 kWh per month the following tariffs will be applicable.
+
+Monthly Consumption (1) kWh
+
+Unit Charge (Rs/kWh)
+
+Fixed Charge (Rs/month)
+
+0-30
+
+2.50
+
+30.00
+
+31-60
+
+4.85
+
+60.00
+
+
+If the consumption is above 60 kWh per month the following tariffs will be applicable.
+
+
+
+Monthly Consumption (1) kWh
+
+Unit charge (Rs/kWh)
+
+Fixed charge (Rs/month)
+
+0-60
+
+7.85
+
+-
+
+61-90
+
+10.00
+
+90.00
+
+91-120
+
+27.75
+
+480.00
+
+121-180
+
+32.00
+
+480.00
+
+>180
+
+45.00
+
+540.00
+
+
+e.g - If the consumption is 45kWh, the calculation would be as follows:
+
+Monthly Bill =  30 * 2.5 + (45-30) * 4.85 + 60 =  Rs 207.75
+
