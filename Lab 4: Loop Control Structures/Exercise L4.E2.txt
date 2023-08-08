@@ -1,0 +1,3 @@
+In number theory, an abundant number is a number for which the sum of its proper divisors is greater than the number itself. The integer 12 is the first abundant number. Its proper divisors are 1, 2, 3, 4 and 6 which sums up to 16. So the total is greater than the number 12. The integer 14 is not an abundant number. Its proper divisors are 1, 2 and 7 which sums up to 10. So the total is not greater than the number 14.
+
+Develop a Python program to take as input a positive integer n greater than 1 and output the number of abundant numbers from 2 to n inclusive. Output 'Invalid Input' for inputs less than 2.
