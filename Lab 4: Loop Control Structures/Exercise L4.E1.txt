@@ -1,0 +1,3 @@
+Develop a program that takes as input a series of positive integers and outputs whether each is a prime. The program should terminate if a negative integer is given as the input. 
+
+A prime number is a number that is divisible by only 1 and itself. However 1 is not considered a prime number. 
