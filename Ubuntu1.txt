@@ -1,0 +1,70 @@
+Simple Script to install PintOS
+===============================
+
+
+//Execute it in Windows Terminal to install Ubuntu
+
+wsl --install
+
+sudo apt update && sudo apt upgrade
+
+
+================================
+
+
+//Then open Ubuntu Terminal and excute the below lines one by one
+
+cd $HOME && mkdir os && cd os
+
+sudo apt update -y && sudo apt-get install build-essential automake git -y
+
+git clone https://github.com/jhu-cs318/pintos.git
+
+sudo apt-get install libncurses5-dev texinfo -y
+
+mkdir toolchain && SWD=$HOME/os/toolchain && mkdir -p $SWD
+
+cd $HOME/os/pintos/src && misc/toolchain-build.sh $SWD
+
+
+nano ~/.bashrc
+
+//Then add it to the new line at last
+
+export PATH="$HOME/os/toolchain/x86_64/bin:$PATH"
+
+//Then save it with Ctrl+S and exit with Ctrl+X
+
+
+
+sudo apt-get install qemu libvirt-daemon-system libvirt-clients -y
+
+cd utils && make
+
+sudo cp backtrace pintos Pintos.pm pintos-gdb pintos-set-cmdline \pintos-mkdisk setitimer-helper squish-pty squish-unix \../../../toolchain/x86_64/bin
+
+cd ../../../toolchain/x86_64 && mkdir misc
+
+cp /$HOME/os/pintos/src/misc/gdb-macros misc
+
+cd $HOME/os/pintos/src/threads && make
+
+cd build && pintos --
+
+
+==============================================================================
+
+
+//To install Desktop Evironment
+sudo apt install lxde
+
+export DISPLAY=:0
+export LIBGL_ALWAYS_INDIRECT=1
+
+
+
+//Download and Install XLaunch(Program to display GUI of Linux)
+https://sourceforge.net/projects/vcxsrv/files/latest/download
+
+//Setup of Xlaunch
+https://www.makeuseof.com/tag/linux-desktop-windows-subsystem/
