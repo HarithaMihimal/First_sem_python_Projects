@@ -1,3 +1,9 @@
+gcc -Wall -W   -c -o squish-pty.o squish-pty.c
+squish-pty.c:10:10: fatal error: stropts.h: No such file or directory
+   10 | #include <stropts.h>
+      |          ^~~~~~~~~~~
+
+
 ccs.neu.edu/home/skotthe/classes/cs5600/fall/2016/labs/pintos-setup.html
 
 https://github.com/WyldeCat/pintos-anon
