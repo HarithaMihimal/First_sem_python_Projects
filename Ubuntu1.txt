@@ -1,3 +1,5 @@
+ccs.neu.edu/home/skotthe/classes/cs5600/fall/2016/labs/pintos-setup.html
+
 https://github.com/WyldeCat/pintos-anon
 Simple Script to install PintOS
 ===============================
