@@ -1,3 +1,4 @@
+https://github.com/WyldeCat/pintos-anon
 Simple Script to install PintOS
 ===============================
 
