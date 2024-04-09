@@ -1,0 +1,1 @@
+Develop a program to read the names of two sports that you and your friends love to play and watch. Then generate all sentences where the subject is in ["I", "We"], the verb is in ["play", "watch"] and the object is in the two sports. Use lists to store the words and generate the sentences by iterating through the lists using deeply nested loops.
