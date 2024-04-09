@@ -1,0 +1,1 @@
+Suppose there are 4 students each having marks of 3 subjects. Develop a program to read the marks from the keyboard and calculate and display the total marks and average mark (rounded off to one decimal point) of each student. Use a 2D (two-dimensional) list to store the marks.  
